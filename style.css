@@ -1,35 +1,92 @@
 
-    .special {
-        color:red;
-    }
-
-    .special2 {
-        background: black; 
-    }
-
-a {
-    color: black;
+h1 {
+    color: rgb(49, 77, 43);
+    font-size: 32px;
+    font-kerning: none;
+    text-align:center;
+    animation-name: title-color;
+    animation-duration: 5s;
 }
 
-section a {
-    color: green;
+html {
+    background:rgb(194, 226, 158);
 }
 
-.container {
-    color: orange;
+h2 {
+    color:rgb(49, 77, 43);
+    font-size: 30px;
+    text-align:center;
+    margin-top: 30px;
+    text-shadow: 2px 1px olivedrab;
+}
+
+ul {
+    color:rgb(49, 77, 43);
+    font-size: 20px;
+}
+
+h3 {
+    color:olivedrab;
+    font-size: 28px;
+    text-align: center;
 }
 
 p {
-    font-size: 12px;
+    font-size: 24px;
+    text-align: center;
+    color:olivedrab;
 }
 
-p {
-    font-size:32px;
+nav {
+    text-align: center;
 }
 
-p {
-    font-size: 50px!important;
+nav a {
+    color:olivedrab;
+    font-size: 25px;
 }
-nav li a {
-    color: magenta;
+
+.image {
+    width: 960px;
+    height: 540px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid olivedrab;
+    border-radius: 70%;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.lists {
+    font-weight: lighter;
+    line-height: 45px;
+}
+
+.last-step {
+    line-height: 45px;
+}
+
+#container1 {
+    background-color: rgb(237, 255, 195);
+}
+
+#container2 {
+    background-color: rgb(237, 255, 195);
+}
+
+#container1 h2 {
+    background-color: white;
+}
+
+#container2 h2 {
+    background-color: white;
+}
+
+#container1 p {
+    font-weight: lighter;
+}
+
+@keyframes title-color {
+    from {color:rgb(49, 77, 43);}
+    to {color:white;}
 }
