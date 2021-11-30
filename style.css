@@ -1,23 +1,36 @@
 
 h1 {
-    color: rgb(49, 77, 43);
-    font-size: 32px;
+    color: rgb(74, 32, 12);
+    font-size: 100px;
     font-kerning: none;
     text-align:center;
-    animation-name: title-color;
-    animation-duration: 5s;
+    padding-top: 20px;
+    text-shadow: 2px 2px white;
 }
 
 html {
-    background:rgb(194, 226, 158);
+    background: white;
+}
+
+header {
+    background-color:rgb(177, 85, 24);
+    height: 300px;
+}
+
+footer {
+    background-color:rgb(177, 85, 24);
+    position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 200px;   
 }
 
 h2 {
-    color:rgb(49, 77, 43);
-    font-size: 30px;
+    color:rgb(177, 85, 24);
+    font-size: 60px;
     text-align:center;
     margin-top: 30px;
-    text-shadow: 2px 1px olivedrab;
+    text-shadow: 2px 2px rgb(44, 20, 4);
 }
 
 ul {
@@ -27,67 +40,88 @@ ul {
 
 h3 {
     color:olivedrab;
-    font-size: 28px;
+    font-size: 35px;
     text-align: center;
+    line-height: 35px;
 }
 
 p {
-    font-size: 24px;
-    text-align: center;
+    font-size: 60px;
+    text-align: justify;
     color:olivedrab;
+    line-height: 80px;
 }
 
+body {
+    text-align: center;
+}
 nav {
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
-    color:olivedrab;
-    font-size: 25px;
+    color: white;
+    font-size: 30px;
 }
 
-.image {
-    width: 960px;
-    height: 540px;
+.gallery {
+    align-items: center;
+    text-align: center;
+}
+
+
+#image {
+    width: 2700px;
+    height: 1450px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 10px solid olivedrab;
-    border-radius: 70%;
     padding: 10px 20px 10px 20px;
-    
+    border: 10px solid rgb(177, 85, 24);
+    padding: 10px 20px 10px 20px;
+    align-content: center;
+}
+
+.blog {
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .lists {
-    font-weight: lighter;
-    line-height: 45px;
+    font-size: 60px;
+    color:olivedrab;
+    line-height: 80px;
+    text-align: left;
 }
 
-.video {
-   align-content:initial;
-   margin-left: 500px;
+.contact {
+    margin: 60px 10px 100px 10px;
 }
 
-#container1 {
-    background-color: rgb(237, 255, 195);
-}
+#contact-footer {
+    background-color:rgb(177, 85, 24);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;  
+ }
 
-#container2 {
-    background-color: rgb(237, 255, 195);
-}
+ #me {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 10px solid rgb(177, 85, 24);
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+ }
 
-#container1 h2 {
-    background-color: white;
-}
-
-#container2 h2 {
-    background-color: white;
-}
-
-#container1 p {
-    font-weight: lighter;
-}
-
-@keyframes title-color {
-    from {color:rgb(49, 77, 43);}
-    to {color:white;}
-}
+ .about-me {
+    font-size: 30px;
+    text-align: center;
+    color:olivedrab;
+    line-height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+ }
